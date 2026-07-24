@@ -88,6 +88,12 @@ python Face_recognition.py --help
 python work_attendance_real.py --help
 ```
 
+## Run Tests
+
+```bash
+python -m pytest
+```
+
 ## How It Works
 
 1. Known faces are loaded from the `Employees/` folder.
@@ -109,6 +115,6 @@ Default tolerance is `0.6`. Lower values are stricter.
 - Add a Streamlit or Django dashboard
 - Add employee registration from webcam
 - Add attendance reports and charts
-- Add unit tests for CSV attendance logic
+- Add more tests for image loading and recognition edge cases
 - Add model evaluation with multiple images per person
 - Add face anti-spoofing checks
